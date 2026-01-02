@@ -6,8 +6,8 @@ export default defineConfig({
     pluginOpenGraph({
       title: 'Rsbuild',
       type: 'website',
-      url: 'https://rsbuild.dev/',
-      image: 'https://rsbuild.dev/og-image.png',
+      url: 'https://rsbuild.rs/',
+      image: 'https://rsbuild.rs/og-image.png',
       description: 'The Rspack-based build tool',
       twitter: {
         site: '@rspack_dev',
