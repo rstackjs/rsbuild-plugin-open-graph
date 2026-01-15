@@ -38,7 +38,10 @@ export default {
 
 ```ts
 pluginOpenGraph({
-  title: 'Rsbuild',
+  // Note, title is page-specific
+  title: 'Rsbuild Home Page',
+  // While site name is site wide
+  siteName: 'Rsbuild',
   type: 'website',
   url: 'https://rsbuild.rs/',
   image: 'https://rsbuild.rs/og-image.png',
@@ -57,7 +60,8 @@ pluginOpenGraph({
   <head>
     <meta property="og:url" content="https://rsbuild.rs/" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Rsbuild" />
+    <meta property="og:title" content="Rsbuild Home Page" />
+    <meta property="og:site_name" content="Rsbuild" />
     <meta property="og:image" content="https://rsbuild.rs/og-image.png" />
     <meta property="og:description" content="The Rspack-based build tool" />
     <meta property="twitter:site" content="@rspack_dev" />
@@ -76,6 +80,7 @@ type PluginOpenGraphOptions = {
   url?: string;
   type?: string;
   title?: string;
+  siteName?: string;
   image?: string;
   audio?: string;
   video?: string;

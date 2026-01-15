@@ -4,7 +4,8 @@ import { pluginOpenGraph } from '../src';
 export default defineConfig({
   plugins: [
     pluginOpenGraph({
-      title: 'Rsbuild',
+      title: 'Rsbuild Home Page',
+      siteName: 'Rsbuild',
       type: 'website',
       url: 'https://rsbuild.rs/',
       image: 'https://rsbuild.rs/og-image.png',

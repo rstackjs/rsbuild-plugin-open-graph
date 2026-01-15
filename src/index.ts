@@ -1,4 +1,5 @@
 import type { RsbuildConfig, RsbuildPlugin } from '@rsbuild/core';
+import toSnakeCase from './toSnakeCase.js';
 
 export type PluginOpenGraphOptions = {
   url?: string;
@@ -10,6 +11,7 @@ export type PluginOpenGraphOptions = {
   locale?: string;
   determiner?: 'a' | 'an' | 'the' | 'auto' | '';
   description?: string;
+  siteName?: string;
   twitter?: {
     site?: string;
     card?: string;
@@ -48,6 +50,7 @@ export const pluginOpenGraph = (
         'url',
         'type',
         'title',
+        'siteName',
         'image',
         'audio',
         'video',
@@ -62,7 +65,8 @@ export const pluginOpenGraph = (
         BASIC_KEYS.forEach((key) => {
           const val = options[key];
           if (val !== undefined) {
-            Object.assign(meta, getMeta(`og:${key}`, val));
+            const name = `og:${toSnakeCase(key)}`
+            Object.assign(meta, getMeta(name, val));
           }
         });
 

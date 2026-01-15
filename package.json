@@ -22,15 +22,17 @@
     "bump": "npx bumpp",
     "dev": "rslib build --watch",
     "prepare": "npm run build",
+    "prettier": "prettier --check ./playground ./src ./test *.ts",
+    "prettier:fix": "prettier --write ./playground ./src ./test *.ts",
     "test": "rstest",
     "test:watch": "rstest watch"
   },
   "devDependencies": {
-    "@rsbuild/core": "^1.6.10",
-    "@rslib/core": "^0.18.2",
-    "@rstest/core": "^0.6.8",
+    "@rsbuild/core": "^1.7.2",
+    "@rslib/core": "^0.19.2",
+    "@rstest/core": "^0.7.9",
     "@types/node": "^22.19.1",
-    "prettier": "^3.7.3",
+    "prettier": "^3.8.0",
     "typescript": "^5.9.3"
   },
   "peerDependencies": {
