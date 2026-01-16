@@ -10,7 +10,8 @@ test('should build succeed', async () => {
     rsbuildConfig: {
       plugins: [
         pluginOpenGraph({
-          title: 'Rsbuild',
+          title: 'Rsbuild Home Page',
+          siteName: 'Rsbuild',
           type: 'website',
           url: 'https://rsbuild.rs/',
           image: 'https://rsbuild.rs/og-image.png',
@@ -33,7 +34,8 @@ test('should build succeed', async () => {
   const expectTags = [
     '<meta property="og:url" content="https://rsbuild.rs/">',
     '<meta property="og:type" content="website">',
-    '<meta property="og:title" content="Rsbuild">',
+    '<meta property="og:title" content="Rsbuild Home Page">',
+    '<meta property="og:site_name" content="Rsbuild">',
     '<meta property="og:image" content="https://rsbuild.rs/og-image.png">',
     '<meta property="og:description" content="The Rspack-based build tool">',
     '<meta property="twitter:site" content="@rspack_dev">',
