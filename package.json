@@ -28,11 +28,11 @@
     "test:watch": "rstest watch"
   },
   "devDependencies": {
-    "@rsbuild/core": "^1.7.2",
-    "@rslib/core": "^0.19.2",
-    "@rstest/core": "^0.7.9",
+    "@rsbuild/core": "^1.7.3",
+    "@rslib/core": "^0.19.6",
+    "@rstest/core": "^0.8.5",
     "@types/node": "^24.11.0",
-    "prettier": "^3.8.0",
+    "prettier": "^3.8.1",
     "typescript": "^5.9.3"
   },
   "peerDependencies": {
@@ -43,7 +43,7 @@
       "optional": true
     }
   },
-  "packageManager": "pnpm@10.24.0",
+  "packageManager": "pnpm@10.30.3",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
