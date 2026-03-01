@@ -31,7 +31,7 @@
     "@rsbuild/core": "^1.7.2",
     "@rslib/core": "^0.19.2",
     "@rstest/core": "^0.7.9",
-    "@types/node": "^22.19.1",
+    "@types/node": "^24.11.0",
     "prettier": "^3.8.0",
     "typescript": "^5.9.3"
   },
