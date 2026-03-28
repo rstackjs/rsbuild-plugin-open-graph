@@ -18,9 +18,9 @@
     "dist"
   ],
   "scripts": {
-    "build": "rslib build",
+    "build": "rslib",
     "bump": "npx bumpp",
-    "dev": "rslib build --watch",
+    "dev": "rslib -w",
     "prepare": "npm run build",
     "prettier": "prettier --check ./playground ./src ./test *.ts",
     "prettier:fix": "prettier --write ./playground ./src ./test *.ts",
