@@ -29,8 +29,8 @@
   },
   "devDependencies": {
     "@rsbuild/core": "^1.7.5",
-    "@rslib/core": "^0.21.2",
-    "@rstest/core": "^0.9.8",
+    "@rslib/core": "^0.21.3",
+    "@rstest/core": "^0.9.9",
     "@types/node": "^24.12.2",
     "prettier": "^3.8.3",
     "typescript": "6.0.3"
@@ -43,7 +43,7 @@
       "optional": true
     }
   },
-  "packageManager": "pnpm@10.33.0",
+  "packageManager": "pnpm@10.33.2",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
