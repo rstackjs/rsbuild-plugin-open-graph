@@ -25,11 +25,14 @@
     "prettier": "prettier --check ./playground ./src ./test *.ts",
     "prettier:fix": "prettier --write ./playground ./src ./test *.ts",
     "test": "rstest",
-    "test:watch": "rstest watch"
+    "test:watch": "rstest watch",
+    "lint": "rslint",
+    "lint:write": "rslint --fix"
   },
   "devDependencies": {
     "@rsbuild/core": "^2.0.3",
     "@rslib/core": "^0.21.3",
+    "@rslint/core": "^0.5.1",
     "@rstest/core": "^0.9.10",
     "@types/node": "^24.12.2",
     "prettier": "^3.8.3",
