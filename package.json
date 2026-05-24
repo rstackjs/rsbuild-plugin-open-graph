@@ -30,10 +30,10 @@
     "lint:write": "rslint --fix"
   },
   "devDependencies": {
-    "@rsbuild/core": "^2.0.6",
+    "@rsbuild/core": "^2.0.7",
     "@rslib/core": "^0.21.5",
     "@rslint/core": "^0.5.3",
-    "@rstest/core": "^0.10.0",
+    "@rstest/core": "^0.10.2",
     "@types/node": "^24.12.4",
     "prettier": "^3.8.3",
     "typescript": "6.0.3"
@@ -46,7 +46,7 @@
       "optional": true
     }
   },
-  "packageManager": "pnpm@11.1.2",
+  "packageManager": "pnpm@11.2.2",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
