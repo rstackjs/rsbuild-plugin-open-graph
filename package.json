@@ -19,7 +19,6 @@
     "build": "rslib",
     "bump": "npx bumpp",
     "dev": "rslib -w",
-    "prepare": "npm run build",
     "prettier": "prettier --check ./playground ./src ./test *.ts",
     "prettier:fix": "prettier --write ./playground ./src ./test *.ts",
     "test": "rstest",
