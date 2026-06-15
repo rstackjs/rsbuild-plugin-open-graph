@@ -29,7 +29,7 @@
   "devDependencies": {
     "@rsbuild/core": "^2.0.9",
     "@rslib/core": "^0.22.0",
-    "@rslint/core": "^0.5.3",
+    "@rslint/core": "^0.6.1",
     "@rstest/core": "^0.10.3",
     "@types/node": "^24.12.4",
     "prettier": "^3.8.3",
