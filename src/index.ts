@@ -65,7 +65,7 @@ export const pluginOpenGraph = (
         BASIC_KEYS.forEach((key) => {
           const val = options[key];
           if (val !== undefined) {
-            const name = `og:${toSnakeCase(key)}`
+            const name = `og:${toSnakeCase(key)}`;
             Object.assign(meta, getMeta(name, val));
           }
         });

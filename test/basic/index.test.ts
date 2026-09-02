@@ -1,4 +1,4 @@
-import { test, expect } from '@rstest/core';
+import { test, expect } from 'rstack/test';
 import { pluginOpenGraph } from '../../src';
 import { createRsbuild } from '@rsbuild/core';
 import fs from 'node:fs';
