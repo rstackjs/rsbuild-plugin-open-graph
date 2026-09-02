@@ -1,7 +1,8 @@
-import { defineConfig } from '@rsbuild/core';
-import { pluginOpenGraph } from '../src';
+// Configuration guide: https://rstack.rs/config
+import { define } from 'rstack';
+import { pluginOpenGraph } from '../src/index.ts';
 
-export default defineConfig({
+define.app({
   plugins: [
     pluginOpenGraph({
       title: 'Rsbuild Home Page',
