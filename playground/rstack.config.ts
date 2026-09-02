@@ -1,6 +1,6 @@
 // Configuration guide: https://rstack.rs/config
 import { define } from 'rstack';
-import { pluginOpenGraph } from '../dist/index.js';
+import { pluginOpenGraph } from '../src/index.ts';
 
 define.app({
   plugins: [

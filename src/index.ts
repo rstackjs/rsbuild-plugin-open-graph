@@ -1,5 +1,5 @@
 import type { RsbuildConfig, RsbuildPlugin } from '@rsbuild/core';
-import toSnakeCase from './toSnakeCase.js';
+import toSnakeCase from './toSnakeCase.ts';
 
 export type PluginOpenGraphOptions = {
   url?: string;

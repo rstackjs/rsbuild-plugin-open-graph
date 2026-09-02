@@ -27,8 +27,7 @@
     "format": "rs fmt",
     "lint": "rs lint",
     "prepare": "rs hooks",
-    "test": "rs test",
-    "test:watch": "rs test watch"
+    "test": "rs test"
   },
   "devDependencies": {
     "@rsbuild/core": "^2.2.2",
