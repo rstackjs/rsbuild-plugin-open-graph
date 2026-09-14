@@ -30,9 +30,9 @@
     "test": "rs test"
   },
   "devDependencies": {
-    "@rsbuild/core": "^2.2.2",
-    "@types/node": "^24.13.3",
-    "rstack": "^0.7.2",
+    "@rsbuild/core": "^2.2.6",
+    "@types/node": "^24.13.4",
+    "rstack": "^0.7.4",
     "typescript": "7.0.2"
   },
   "peerDependencies": {
@@ -43,7 +43,7 @@
       "optional": true
     }
   },
-  "packageManager": "pnpm@11.24.0",
+  "packageManager": "pnpm@11.27.0",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
